@@ -4,9 +4,9 @@ keywords: homepage, index
 hide_sidebar: true
 permalink: index.html
 toc: false
-complex_map: true
-map_name: usermapcomplex-M
-box_number: 1
+#complex_map: true
+#map_name: usermapcomplex-M
+#box_number: 1
 ---
 <h1 class="titulo-testudinia">TESTUDINIA</h1>
 
