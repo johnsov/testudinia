@@ -1,4 +1,5 @@
-repository: 
+repository: johnsov/testudinia
+
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
@@ -9,10 +10,13 @@ topnav_title: Testudinia
 site_title: Testudinia
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
+url: "https://johnsov.github.io"
+baseurl: "/testudinia"
+
 company_name: Copyright 2021 Google LLC
 # this appears in the footer
 
-github_editme_path: 
+github_editme_path: johnsov/testudinia
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 # gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/

@@ -1,0 +1,20 @@
+/* Fuente para títulos */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+}
+
+/* Fuente para el cuerpo del texto */
+body, p, li, span, a, div {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+}
+
+.titulo-testudinia {
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+  color: #C9A74E; /* tono dorado mostaza */
+  font-family: 'Lora', serif;
+  margin-top: 30px;
+}

@@ -1,12 +1,17 @@
 ---
-title: TESTUDINIA
+title:
 keywords: homepage, index
 hide_sidebar: true
 permalink: index.html
 toc: false
-
+complex_map: true
+map_name: usermapcomplex-M
+box_number: 1
 ---
-{% include image.html file="snapping_turtle.jpg" alt="tortuga" %}
+<h1 class="titulo-testudinia">TESTUDINIA</h1>
+
+
+{% include image.html file="snapping_turtle.png" alt="tortuga" %}
 
 {% include tip.html content="Número total de especies en Colombia: xxx" %}
 
@@ -48,7 +53,7 @@ toc: false
               <img src="images/iconos/tortuga_tierra_ia.png" alt="IconoTierra">
             </div>
             <div class="panel-body">
-              <h4>Tortugas terrestres</h4>
+              <h3>Tortugas terrestres</h3>
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal_Testudines">Explora</button>
             </div>
           </div>
@@ -59,7 +64,7 @@ toc: false
               <img src="images/iconos/tortuga_rio_ia.png" alt="IconoRio">
             </div>
             <div class="panel-body">
-              <h4>Tortugas de agua dulce</h4>
+              <h3>Tortugas de agua dulce</h3>
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal_Sauria">Explora</button>
             </div>
           </div>
@@ -70,7 +75,7 @@ toc: false
               <img src="images/iconos/tortuga_mar_ia.png" alt="IconoMar">
             </div>
             <div class="panel-body">
-              <h4>Tortugas marinas</h4>
+              <h3>Tortugas marinas</h3>
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal_Serpentes">Explora</button>
             </div>
           </div>
