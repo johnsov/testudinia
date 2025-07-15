@@ -50,33 +50,33 @@ toc: false
         <div class="panel-wrapper">
           <div class="panel panel-default text-center">
             <div class="panel-heading">
-              <img src="images/iconos/tortuga_tierra_ia.png" alt="IconoTierra">
+              <img src="images/tortuga_tierra_ia.png" alt="IconoTierra">
             </div>
             <div class="panel-body">
               <h3>Tortugas terrestres</h3>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal_Testudines">Explora</button>
+              <a href="/testudinia/terrestrial.html" class="btn btn-primary" role="button">Explora</a>
             </div>
           </div>
         </div>
         <div class="panel-wrapper">
           <div class="panel panel-default text-center">
             <div class="panel-heading">
-              <img src="images/iconos/tortuga_rio_ia.png" alt="IconoRio">
+              <img src="images/tortuga_rio_ia.png" alt="IconoRio">
             </div>
             <div class="panel-body">
               <h3>Tortugas de agua dulce</h3>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal_Sauria">Explora</button>
+              <a href="/testudinia/freshwater.html" class="btn btn-primary" role="button">Explora</a>
             </div>
           </div>
         </div>
         <div class="panel-wrapper">
           <div class="panel panel-default text-center">
             <div class="panel-heading">
-              <img src="images/iconos/tortuga_mar_ia.png" alt="IconoMar">
+              <img src="images/tortuga_mar_ia.png" alt="IconoMar">
             </div>
             <div class="panel-body">
               <h3>Tortugas marinas</h3>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal_Serpentes">Explora</button>
+              <a href="/testudinia/sea.html" class="btn btn-primary" role="button">Explora</a>
             </div>
           </div>
         </div>
