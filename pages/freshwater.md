@@ -10,158 +10,167 @@ toc: false
 <center><p>Número de especies: <strong>3</strong> | Especies endémicas: <strong>0</strong></p></center>
 
 <style>
-.btn-outline-success {
-  color: #5cb85c;
-  background-color: transparent;
-  border: 1px solid #5cb85c;
+  /* icono por estado */
+.estado-lc .icono-iucn {
+  background-image: url('images/iconos/lc.png');
 }
 
-.btn-outline-success:hover,
-.btn-outline-success:focus,
-.btn-outline-success:active {
-  color: #fff;
-  background-color: #5cb85c;
-  border-color: #4cae4c;
+.estado-nt .icono-iucn {
+  background-image: url('images/iconos/nt.png');
 }
 
-.btn-outline-info {
-  color: #5bc0de;
-  background-color: transparent;
-  border: 1px solid #5bc0de;
+.estado-en .icono-iucn {
+  background-image: url('images/iconos/en.png');
 }
-
-.btn-outline-info:hover,
-.btn-outline-info:focus,
-.btn-outline-info:active {
-  color: #fff;
-  background-color: #5bc0de;
-  border-color: #46b8da;
-}
-
-.btn-outline-primary {
-  color: #337ab7;
-  background-color: transparent;
-  border: 1px solid #337ab7;
-}
-
-.btn-outline-primary:hover,
-.btn-outline-primary:focus,
-.btn-outline-primary:active {
-  color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
-}
-
-.panel-heading.freshwater {
-  background-color: #927b61b8; /* Verde profundo */
-  color: #fff;
-  border-bottom: 1px solid #e6e6e6;
-}
-
-.tarjeta{
-  border: 2px solid #e6e6e6; /* Borde claro */
-  border-radius: 6px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-  background-color: #fff;
-}
-
 </style>
 
-
-<div class="container">
+<div class="container"><!--Familia Kinosternidae-->
   <div class="row">
     <div class="col-lg-12 text-center">
-      <h2 class="page-header">Familia Geoemydidae</h2>
+      <h2 class="page-header">Familia Kinosternidae</h2>
     </div>
     <div class="col-lg-12">
       <div class="flex-centrado">
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="panel panel-default tarjeta">
+        <!-- Imagen superior -->
+        <img src="images/tortuga_tierra_ia.png" alt="" class="img-fluid rounded-top" /> 
+        <!-- Contenido de la tarjeta -->
+        <div class="panel-heading freshwater">
+          <h3 class="panel-title">Kinosternon leucostomum (Duméril, Bibron & Duméril, 1851)</h3>
+        </div>
+        <div class="panel-body">
+          <p><strong>Nombre común:</strong> Tortuga Tapacula<br>
+            <strong>Regiones:</strong> Bosque Húmedo Tropical del Chocó</p>
+          <a href="#" class="btn btn-outline-success btn-xs">Ficha</a>
+          <a href="#" class="btn btn-outline-info btn-xs">Imágenes</a>
+          <a href="#" class="btn btn-outline-primary btn-xs">Mapa</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="panel panel-default tarjeta">
+        <!-- Imagen superior -->
+        <img src="images/tortuga_tierra_ia.png" alt="" class="img-fluid rounded-top" /> 
+        <!-- Contenido de la tarjeta -->
+        <div class="panel-heading freshwater">
+          <h3 class="panel-title">Kinosternon dunni</h3>
+        </div>
+        <div class="panel-body">
+          <p><strong>Nombre común:</strong> Tortugas trueno<br>
+            <strong>Regiones:</strong> Bosque Húmedo Tropical del Chocó</p>
+          <a href="#" class="btn btn-outline-success btn-xs">Ficha</a>
+          <a href="#" class="btn btn-outline-info btn-xs">Imágenes</a>
+          <a href="#" class="btn btn-outline-primary btn-xs">Mapa</a>
+        </div>
+      </div>
+    </div>
 
-<div class="col-md-6 col-lg-4 mb-4">
-  <div class="panel panel-default tarjeta">
-    <!-- Imagen superior -->
-    <img src="images/tortuga_tierra_ia.png" alt="" class="img-fluid rounded-top" /> 
-    <!-- Contenido de la tarjeta -->
-    <div class="panel-heading freshwater">
-      <h3 class="panel-title">Rhinoclemmys annulata</h3>
+<div class="container"><!--Familia Geoemydidae-->
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2 class="page-header">Familia Geoemydidae (anteriormente Bataguridae)</h2>
     </div>
-    <div class="panel-body">
-      <p><strong>Nombre común:</strong> Tortugas trueno<br>
-         <strong>Regiones:</strong> Bosque Húmedo Tropical del Chocó</p>
-      <a href="#" class="btn btn-outline-success btn-xs">Ficha</a>
-      <a href="#" class="btn btn-outline-info btn-xs">Imágenes</a>
-      <a href="#" class="btn btn-outline-primary btn-xs">Mapa</a>
+    <div class="col-lg-12">
+      <div class="flex-centrado"> 
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="panel panel-default tarjeta">
+        <!-- Imagen superior -->
+        <img src="images/tortuga_tierra_ia.png" alt="" class="img-fluid rounded-top" /> 
+        <!-- Contenido de la tarjeta -->
+        <div class="panel-heading freshwater">
+          <h3 class="panel-title">Rhinoclemmys melanosterna (Gray, 1861)</h3>
+        </div>
+        <div class="panel-body">
+          <p><strong>Nombre común:</strong> Tortuga cabeza de cinta<br>
+            <strong>Regiones:</strong> Bosque Húmedo Tropical del Chocó</p>
+          <a href="#" class="btn btn-outline-success btn-xs">Ficha</a>
+          <a href="#" class="btn btn-outline-info btn-xs">Imágenes</a>
+          <a href="#" class="btn btn-outline-primary btn-xs">Mapa</a>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="panel panel-default tarjeta">
+        <!-- Imagen superior -->
+        <img src="images/tortuga_tierra_ia.png" alt="" class="img-fluid rounded-top" /> 
+        <!-- Contenido de la tarjeta -->
+        <div class="panel-heading freshwater">
+          <h3 class="panel-title">Rhinoclemmys nasuta (Boulenger, 1902)</h3>
+        </div>
+        <div class="panel-body">
+          <p><strong>Nombre común:</strong> Tortuga blanca<br>
+            <strong>Regiones:</strong> Bosque Húmedo Tropical del Chocó</p>
+          <a href="#" class="btn btn-outline-success btn-xs">Ficha</a>
+          <a href="#" class="btn btn-outline-info btn-xs">Imágenes</a>
+          <a href="#" class="btn btn-outline-primary btn-xs">Mapa</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="panel panel-default tarjeta">
+        <!-- Imagen superior -->
+        <img src="images/tortuga_tierra_ia.png" alt="" class="img-fluid rounded-top" /> 
+        <!-- Contenido de la tarjeta -->
+        <div class="panel-heading freshwater">
+          <h3 class="panel-title">Rhinoclemmys annulata (Gray, 1860)</h3>
+        </div>
+        <div class="panel-body">
+          <p><strong>Nombre común:</strong> Tortuga montañera<br>
+            <strong>Regiones:</strong> Bosque Húmedo Tropical del Chocó</p>
+          <a href="#" class="btn btn-outline-success btn-xs">Ficha</a>
+          <a href="#" class="btn btn-outline-info btn-xs">Imágenes</a>
+          <a href="#" class="btn btn-outline-primary btn-xs">Mapa</a>
+        </div>
+      </div>
+    </div>
 
-<div class="col-md-6 col-lg-4 mb-4">
-  <div class="panel panel-default tarjeta">
-    <!-- Imagen superior -->
-    <img src="images/tortuga_tierra_ia.png" alt="" class="img-fluid rounded-top" /> 
-    <!-- Contenido de la tarjeta -->
-    <div class="panel-heading freshwater">
-      <h3 class="panel-title">Rhinoclemmys annulata</h3>
+<div class="container"><!--Familia Chelydridae-->
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2 class="page-header">Familia Chelydridae</h2>
     </div>
-    <div class="panel-body">
-      <p><strong>Nombre común:</strong> Tortugas trueno<br>
-         <strong>Regiones:</strong> Bosque Húmedo Tropical del Chocó</p>
-      <a href="#" class="btn btn-outline-success btn-xs">Ficha</a>
-      <a href="#" class="btn btn-outline-info btn-xs">Imágenes</a>
-      <a href="#" class="btn btn-outline-primary btn-xs">Mapa</a>
+    <div class="col-lg-12">
+      <div class="flex-centrado">
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="panel panel-default tarjeta">
+        <!-- Imagen superior -->
+        <img src="images/tortuga_tierra_ia.png" alt="" class="img-fluid rounded-top" /> 
+        <!-- Contenido de la tarjeta -->
+        <div class="panel-heading freshwater">
+          <h3 class="panel-title">Chelydra serpentina (Linnaeus, 1758)</h3>
+        </div>
+        <div class="panel-body">
+          <p><strong>Nombre común:</strong> Tortuga bache<br>
+            <strong>Regiones:</strong> Bosque Húmedo Tropical del Chocó</p>
+          <a href="#" class="btn btn-outline-success btn-xs">Ficha</a>
+          <a href="#" class="btn btn-outline-info btn-xs">Imágenes</a>
+          <a href="#" class="btn btn-outline-primary btn-xs">Mapa</a>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="col-md-6 col-lg-4 mb-4">
-  <div class="panel panel-default tarjeta">
-    <!-- Imagen superior -->
-    <img src="images/tortuga_tierra_ia.png" alt="" class="img-fluid rounded-top" /> 
-    <!-- Contenido de la tarjeta -->
-    <div class="panel-heading freshwater">
-      <h3 class="panel-title">Rhinoclemmys annulata</h3>
+<div class="container"><!--Familia Emydidae -->
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2 class="page-header">Familia Emydidae</h2>
     </div>
-    <div class="panel-body">
-      <p><strong>Nombre común:</strong> Tortugas trueno<br>
-         <strong>Regiones:</strong> Bosque Húmedo Tropical del Chocó</p>
-      <a href="#" class="btn btn-outline-success btn-xs">Ficha</a>
-      <a href="#" class="btn btn-outline-info btn-xs">Imágenes</a>
-      <a href="#" class="btn btn-outline-primary btn-xs">Mapa</a>
+    <div class="col-lg-12">
+      <div class="flex-centrado">
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="panel panel-default tarjeta">
+        <!-- Imagen superior -->
+        <img src="images/tortuga_tierra_ia.png" alt="" class="img-fluid rounded-top" /> 
+        <!-- Contenido de la tarjeta -->
+        <div class="panel-heading freshwater">
+          <h3 class="panel-title">Trachemys scripta (Schoepf, 1792)</h3>
+        </div>
+        <div class="panel-body">
+          <p><strong>Nombre común:</strong> Tortuga jicotea<br>
+            <strong>Regiones:</strong> Bosque Húmedo Tropical del Chocó</p>
+          <a href="#" class="btn btn-outline-success btn-xs">Ficha</a>
+          <a href="#" class="btn btn-outline-info btn-xs">Imágenes</a>
+          <a href="#" class="btn btn-outline-primary btn-xs">Mapa</a>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-
-<div class="col-md-6 col-lg-4 mb-4">
-  <div class="panel panel-default tarjeta">
-    <!-- Imagen superior -->
-    <img src="images/tortuga_tierra_ia.png" alt="" class="img-fluid rounded-top" /> 
-    <!-- Contenido de la tarjeta -->
-    <div class="panel-heading freshwater">
-      <h3 class="panel-title">Rhinoclemmys annulata</h3>
-    </div>
-    <div class="panel-body">
-      <p><strong>Nombre común:</strong> Tortugas trueno<br>
-         <strong>Regiones:</strong> Bosque Húmedo Tropical del Chocó</p>
-      <a href="#" class="btn btn-outline-success btn-xs">Ficha</a>
-      <a href="#" class="btn btn-outline-info btn-xs">Imágenes</a>
-      <a href="#" class="btn btn-outline-primary btn-xs">Mapa</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-6 col-lg-4 mb-4">
-  <div class="panel panel-default tarjeta">
-    <!-- Imagen superior -->
-    <img src="images/tortuga_tierra_ia.png" alt="" class="img-fluid rounded-top" /> 
-    <!-- Contenido de la tarjeta -->
-    <div class="panel-heading freshwater">
-      <h3 class="panel-title">Rhinoclemmys annulata</h3>
-    </div>
-    <div class="panel-body">
-      <p><strong>Nombre común:</strong> Tortugas trueno<br>
-         <strong>Regiones:</strong> Bosque Húmedo Tropical del Chocó</p>
-      <a href="#" class="btn btn-outline-success btn-xs">Ficha</a>
-      <a href="#" class="btn btn-outline-info btn-xs">Imágenes</a>
-      <a href="#" class="btn btn-outline-primary btn-xs">Mapa</a>
-    </div>
-  </div>
-</div>

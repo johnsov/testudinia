@@ -10,6 +10,7 @@ body, p, li, span, a, div {
   font-weight: 400;
 }
 
+/* Clase titulo */
 .titulo-testudinia {
   font-size: clamp(2rem, 6vw, 72px); /* mínimo 2rem, ideal 6vw, máximo 72px */
   font-weight: bold;
@@ -18,3 +19,88 @@ body, p, li, span, a, div {
   font-family: 'Lora', serif;
   margin-top: 30px;
 }
+
+/*botones de las fichas */
+.btn-outline-success {
+  color: #5cb85c;
+  background-color: transparent;
+  border: 1px solid #5cb85c;
+}
+
+.btn-outline-success:hover,
+.btn-outline-success:focus,
+.btn-outline-success:active {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.btn-outline-info {
+  color: #5bc0de;
+  background-color: transparent;
+  border: 1px solid #5bc0de;
+}
+
+.btn-outline-info:hover,
+.btn-outline-info:focus,
+.btn-outline-info:active {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+.btn-outline-primary {
+  color: #337ab7;
+  background-color: transparent;
+  border: 1px solid #337ab7;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+/* colores fondo de cada tarjeta */
+.panel-heading.terrestrial {
+  background-color: #7e9261b8; /* Verde profundo */
+  color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.panel-heading.freshwater {
+  background-color: #927b61b8; /* Verde profundo */
+  color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.panel-heading.sea {
+  background-color: #618b92b8; /* Verde profundo */
+  color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+/* colores bordes de cada tarjeta */
+.tarjeta{
+  border: 2px solid #e6e6e6; /* Borde claro */
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  background-color: #fff;
+  position: relative;
+}
+
+/* icono uicn */
+.icono-iucn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 60px;
+  height: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+
