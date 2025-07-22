@@ -1,0 +1,61 @@
+<style>
+
+/* Íconos por estado */
+.estado-dd .icono-iucn {
+  background-image: url('images/iconos/dd.png');
+}
+.estado-lc .icono-iucn {
+  background-image: url('images/iconos/lc.png');
+}
+.estado-nt .icono-iucn {
+  background-image: url('images/iconos/nt.png');
+}
+.estado-vu .icono-iucn {
+  background-image: url('images/iconos/vu.png');
+}
+.estado-en .icono-iucn {
+  background-image: url('images/iconos/en.png');
+}
+.estado-cr .icono-iucn {
+  background-image: url('images/iconos/cr.png');
+}
+.estado-ew .icono-iucn {
+  background-image: url('images/iconos/ew.png');
+}
+.estado-ex .icono-iucn {
+  background-image: url('images/iconos/ex.png');
+}
+.estado-ne .icono-iucn {
+  background-image: url('images/iconos/ne.png');
+}
+
+</style>
+
+<div class="col-md-6 col-lg-4 mb-4">
+  <div class="panel panel-default tarjeta estado-{{ include.estado }} position-relative">
+
+    <!-- Icono IUCN -->
+    <span class="icono-iucn estado-{{ include.estado }}"></span>
+
+    <!-- Imagen superior -->
+    <img src="images/{{ include.imagen }}" alt="{{ include.alt }}" class="img-fluid rounded-top" />
+
+    <!-- Contenido de la tarjeta -->
+    <div class="panel-heading {{include.habitat}}">
+      <h3 class="panel-title">{{ include.nombre_cientifico }}</h3>
+    </div>
+
+    <div class="panel-body">
+      <p>
+        <strong>Nombre común:</strong> {{ include.nombre_comun }}<br>
+        <strong>Regiones:</strong> {{ include.regiones }}<br>
+        {% if include.endemica == "true" %}
+          <strong class="text-danger">Especie endémica</strong><br>
+        {% endif %}
+      </p>
+      <a href="{{ include.ficha }}" class="btn btn-outline-success btn-xs">Ficha</a>
+      <a href="{{ include.imagenes }}" class="btn btn-outline-info btn-xs">Imágenes</a>
+      <a href="{{ include.mapa }}" class="btn btn-outline-primary btn-xs">Mapa</a>
+    </div>
+  </div>
+</div>

@@ -1,39 +1,24 @@
-Caretta_caretta
-Chelonia_mydas
-Chelonoidis_carbonarius
-Chelonoidis_denticulatus
-Chelus_fimbriata
-Chelus_orinocensis
-Chelydra_acutirostris
-Dermochelys_coriacea
-Eretmochelys_imbricata
-Kinosternon_albogulare
-Kinosternon_dunni
-Kinosternon_leucostomum
-Kinosternon_scorpioides
-Lepidochelys_kempii
-Mesoclemmys_dahli
-Mesoclemmys_gibba
-Mesoclemmys_nasuta
-Mesoclemmys_raniceps
-Mesoclemmys_wermuthi
-Peltocephalus_dumerilianus
-Phrynops_geoffroanus
-Phrynops_tuberosus
-Platemys_platycephala
-Podocnemis_erythrocephala
-Podocnemis_expansa
-Podocnemis_lewyana
-Podocnemis_sextuberculata
-Podocnemis_unifilis
-Podocnemis_vogli
-Rhinemys_rufipes
-Rhinoclemmys_annulata
-Rhinoclemmys_diademata
-Rhinoclemmys_melanosterna
-Rhinoclemmys_nasuta
-Rhinoclemmys_punctularia
-Trachemys_callirostris
-Trachemys_medemi
-Trachemys_scripta
-Trachemys_venusta
+Chelus fimbriatus
+Mesoclemmys heliostemma
+Mesoclemmys dahli
+Mesoclemmys gibba
+Mesoclemmys raniceps
+Phrynops geoffroanus
+Platemys platycephala
+Rhinemys rufipes
+Chelydra acutirostris
+Trachemys callirostris
+Trachemys venusta
+Rhinoclemmys diademata
+Rhinoclemmys melanosterna
+Rhinoclemmys nasuta
+Kinosternon dunni
+Kinosternon leucostomum
+Kinosternon scorpioides
+Peltocephalus dumerilianus
+Podocnemis erythrocephala
+Podocnemis expansa
+Podocnemis lewyana
+Podocnemis sextuberculata
+Podocnemis unifilis
+Podocnemis vogli
