@@ -13,7 +13,7 @@ toc: false
 
 {% include image.html file="snapping_turtle.png" alt="tortuga" %}
 
-{% include tip.html content="Número total de especies en Colombia: xxx" %}
+{% include tip.html content="Número total de especies en Colombia: 33" %}
 
 <style>
   .flex-centrado {

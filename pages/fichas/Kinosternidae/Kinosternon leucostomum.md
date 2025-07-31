@@ -7,14 +7,12 @@ published: true
 keywords: [kinosternon, leucostomum, cryptodira, tapacula]
 ---
 
-{% include carrusel.html species="kinosternon_leucostomum" %}
+{% include carrusel.html id="kinosternon_leucostomum" %}
 
-<!--aqui deberia haber un scollage de fotos bien chevere-->
 
-## Nombres comunes en español
+## Nombres comunes
 En toda la región del Pacífico se conoce con el nombre de tapacula. Sin embargo, en la zona del puerto de Buenaventura hacia el sur también la llaman Juan Velita o Juan Vela. En la zona de Juanchaco y Ladrilleros le llaman culitapa y en la zona del río San Juan se conoce con el nombre de galápago. Los indígenas Wounan la denominan anbús o beberre; entre los eperara-siapidara se llama civi-chai. 1
 
-## Nombres comunes en inglés
 En inglés se conoce como White-lipped mud turtle. 1
 
 ## Descripción

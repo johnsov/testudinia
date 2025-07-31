@@ -20,7 +20,7 @@ toc: false
 {% include tarjeta.html
    habitat="freshwater"
    estado="dd"
-   imagen="tortuga_tierra_ia.png"
+   imagen="kinosternon_leucostomum"
    alt=""
    nombre_cientifico="Kinosternon leucostomum (Duméril, Bibron & Duméril, 1851)"
    nombre_comun="Tortuga Tapacula"
@@ -34,12 +34,12 @@ toc: false
 {% include tarjeta.html
    habitat="freshwater"
    estado="dd"
-   imagen="tortuga_tierra_ia.png"
+   imagen="rhinoclemmys_melanosterna"
    alt=""
    nombre_cientifico="Kinosternon dunni"
    nombre_comun="Tortugas trueno"
    regiones="Bosque Húmedo Tropical del Chocó"
-   ficha="kinosternon_leucostomum.html"
+   ficha="rhinoclemmys_melanosterna.html"
    imagenes="#"
    mapa="#"
    endemica="true"
@@ -64,7 +64,7 @@ toc: false
         <div class="panel-body">
           <p><strong>Nombre común:</strong> Tortuga cabeza de cinta<br>
             <strong>Regiones:</strong> Bosque Húmedo Tropical del Chocó</p>
-          <a href="#" class="btn btn-outline-success btn-xs">Ficha</a>
+          <a href="rhinoclemmys_melanosterna.html" class="btn btn-outline-success btn-xs">Ficha</a>
           <a href="#" class="btn btn-outline-info btn-xs">Imágenes</a>
           <a href="#" class="btn btn-outline-primary btn-xs">Mapa</a>
         </div>

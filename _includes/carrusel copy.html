@@ -1,11 +1,9 @@
-{% assign especie_actual = site.data.galeria.especies | where: "id", include.species | first %}
-
 <div class="carrusel-macos">
   <div class="visor-principal">
-    <img id="imagen-principal" src="{{ especie_actual.tiles[0].image }}" alt="{{ especie_actual.tiles[0].alt }}">
+    <img id="imagen-principal" src="{{ site.data[include.species].tiles[0].image }}" alt="{{ site.data[include.species].tiles[0].alt }}">
   </div>
   <div class="miniaturas">
-    {% for tile in especie_actual.tiles %}
+    {% for tile in site.data[include.species].tiles %}
       <img class="miniatura" src="{{ tile.image }}" alt="{{ tile.alt }}" onclick="
         document.getElementById('imagen-principal').src='{{ tile.image }}';
         document.getElementById('imagen-principal').alt='{{ tile.alt }}';

@@ -31,6 +31,10 @@
 
 </style>
 
+{% assign especie = site.data.galeria.especies | where: "id", include.imagen | first %}
+{% assign imagen_principal = especie.tiles[0] %}
+
+
 <div class="col-md-6 col-lg-4 mb-4">
   <div class="panel panel-default tarjeta estado-{{ include.estado }} position-relative">
 
@@ -38,7 +42,8 @@
     <span class="icono-iucn estado-{{ include.estado }}"></span>
 
     <!-- Imagen superior -->
-    <img src="images/{{ include.imagen }}" alt="{{ include.alt }}" class="img-fluid rounded-top" />
+    <img src="{{ imagen_principal.image }}" alt="{{ imagen_principal.alt }}" class="img-fluid rounded-top" />
+
 
     <!-- Contenido de la tarjeta -->
     <div class="panel-heading {{include.habitat}}">
