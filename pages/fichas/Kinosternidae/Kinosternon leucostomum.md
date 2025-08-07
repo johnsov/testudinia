@@ -2,7 +2,7 @@
 title: Kinosternon leucostomum (Duméril, Bibron & Duméril, 1851)
 hide_sidebar: true
 permalink: kinosternon_leucostomum.html
-toc: false
+toc: true
 published: true
 keywords: [kinosternon, leucostomum, cryptodira, tapacula]
 ---

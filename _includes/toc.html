@@ -1,24 +1,113 @@
+{% if page.toc == true %}
+<style>
+  .post-content {
+    margin-left: 64px;
+    padding: 1rem;
+  }
 
-<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
-<script>
-$( document ).ready(function() {
-  // Handler for .ready() called.
+  .toc-icons-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 64px;
+    height: 100vh;
+    background-color: #4E6E58;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+  }
 
-$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+  .toc-icons-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
 
-/* this offset helps account for the space taken up by the floating toolbar. */
-$('#toc').on('click', 'a', function() {
-  var target = $(this.getAttribute('href'))
-    , scroll_target = target.offset().top
+  .toc-icons-bar a {
+    text-decoration: none;
+  }
 
-  $(window).scrollTop(scroll_target - 10);
-  return false
-})
+  .icon {
+    font-size: 1.5rem;
+    color: white;
+    position: relative;
+    cursor: pointer;
+  }
 
-});
-</script>
+  .icon::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #4E6E58;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    font-size: 0.8rem;
+  }
 
-<div id="toc"></div>
+  .icon:hover::after {
+    opacity: 1;
+  }
+
+  @media (max-width: 768px) {
+    .post-header{
+      margin-left: 0 !important;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    
+    .post-content {
+      margin-left: 0 !important;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    .toc-icons-bar {
+      top: auto;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 56px;
+      flex-direction: row;
+    }
+
+    .toc-icons-bar ul {
+      flex-direction: row;
+      gap: 16px;
+    }
+
+    .icon::after {
+      left: 50%;
+      top: -32px;
+      transform: translateX(-50%);
+    }
+  }
+</style>
+
+<div class="toc-icons-bar">
+  <ul>
+    <li><a href="#nombres-comunes"><span class="icon" data-tooltip="Nombres comunes">🗣️</span></a></li>
+    <li><a href="#descripcion"><span class="icon" data-tooltip="Descripción">📖</span></a></li>
+    <li><a href="#especies-similares"><span class="icon" data-tooltip="Especies similares">🧬</span></a></li>
+    <li><a href="#distribucion"><span class="icon" data-tooltip="Distribución">🗺️</span></a></li>
+    <li><a href="#habitat"><span class="icon" data-tooltip="Hábitat">🌿</span></a></li>
+    <li><a href="#historia-natural"><span class="icon" data-tooltip="Historia natural">⏳</span></a></li>
+    <li><a href="#estado-conservacion"><span class="icon" data-tooltip="Estado de conservación">🛡️</span></a></li>
+    <li><a href="#referencias"><span class="icon" data-tooltip="Referencias">📚</span></a></li>
+  </ul>
+</div>
+{% endif %}
+
 
 {% comment %} Copyright 2021 Google LLC {% endcomment %}
 
