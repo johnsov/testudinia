@@ -1,15 +1,24 @@
-{% assign especie_actual = site.data.galeria.especies | where: "id", include.species | first %}
+{% assign especie_actual = site.data.galeria.especies | where: "id", include.id | first %}
 
-<div class="carrusel-macos">
-  <div class="visor-principal">
-    <img id="imagen-principal" src="{{ especie_actual.tiles[0].image }}" alt="{{ especie_actual.tiles[0].alt }}">
+{% if especie_actual and especie_actual.tiles and especie_actual.tiles.size > 0 %}
+  <div class="carrusel-macos">
+    <div class="visor-principal">
+      <img id="imagen-principal" src="{{ especie_actual.tiles[0].image }}" alt="{{ especie_actual.tiles[0].alt }}">
+    </div>
+    <div class="miniaturas">
+      {% for tile in especie_actual.tiles %}
+        <img class="miniatura" src="{{ tile.image }}" alt="{{ tile.alt }}" onclick="
+          document.getElementById('imagen-principal').src='{{ tile.image }}';
+          document.getElementById('imagen-principal').alt='{{ tile.alt }}';
+        ">
+      {% endfor %}
+    </div>
   </div>
-  <div class="miniaturas">
-    {% for tile in especie_actual.tiles %}
-      <img class="miniatura" src="{{ tile.image }}" alt="{{ tile.alt }}" onclick="
-        document.getElementById('imagen-principal').src='{{ tile.image }}';
-        document.getElementById('imagen-principal').alt='{{ tile.alt }}';
-      ">
-    {% endfor %}
-  </div>
-</div>
+{% else %}
+  <p style="text-align: center; font-style: italic; color: #4E6E58;">
+    No hay fotografías disponibles aún para esta especie. ¿Tienes imágenes que quieras compartir?  
+    <br>Envíalas a <a href="mailto:sebastian.ovalle@outlook.com" style="color: #C94C4C; font-weight: bold;">sebastian.ovalle@outlook.com</a>  
+    y ayúdanos en este hermoso proyecto de conservación de tortugas.
+    <br><a href="/terminos-y-condiciones.html" style="font-size: 0.9rem; color: #4E6E58; text-decoration: underline;">Términos y condiciones</a>
+  </p>
+{% endif %}

@@ -2,13 +2,13 @@
 title: Rhinoclemmys melanosterna (Gray, 1861)
 hide_sidebar: true
 permalink: rhinoclemmys_melanosterna.html
-toc: false
+toc: true
 published: true
 keywords: [rhinoclemmys, melanosterna, cryptodira]
 ---
 
-{% include carrusel.html id="rhinoclemmys_melanosterna" %}
 
+{% include carrusel.html id="rhinoclemmys_melanosterna" %}
 
 ## Nombres comunes
 En toda la región se conoce con el nombre de cabeza de cinta. También se conoce como tortuga de agua dulce, tortuga pintada, tortuga fina y orito. Al sur la llaman patiamarilla. La variedad que tiene una banda superciliar roja se conoce con el nombre de cabeza de vija. Los indígenas wounan la denominan kood y los eperara-siapidara, civi.

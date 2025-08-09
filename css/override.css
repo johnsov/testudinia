@@ -20,6 +20,16 @@ body, p, li, span, a, div {
   margin-top: 30px;
 }
 
+/* Clase titulo-post */
+.post-title-main {
+  font-size: clamp(2rem, 6vw, 48px); /* mínimo 2rem, ideal 6vw, máximo 48px */
+  font-weight: bold;
+  text-align: center;
+  color: #C9A74E;
+  font-family: 'Lora', serif;
+  margin-top: 30px;
+}
+
 /*botones de las fichas */
 .btn-outline-success {
   color: #5cb85c;
